@@ -295,7 +295,10 @@ private fun EstimationPreview(state: AuctionState, onOpenDetail: () -> Unit) {
 // 倍率 / 浮动
 // ---------------------------------------------------------------------------
 
+<<<<<<< HEAD
 @OptIn(ExperimentalMaterial3Api::class)
+=======
+>>>>>>> branch 'main' of https://github.com/xiatianPE/dafu-auction.git
 @Composable
 private fun MultiplierSection(state: AuctionState, viewModel: AuctionViewModel) {
     SectionCard(
