@@ -335,10 +335,7 @@ private fun tierColor(tier: BidTier): Color = when (tier) {
 // 反推表
 // ---------------------------------------------------------------------------
 
-<<<<<<< HEAD
 @OptIn(ExperimentalMaterial3Api::class)
-=======
->>>>>>> branch 'main' of https://github.com/xiatianPE/dafu-auction.git
 @Composable
 private fun InferTab(state: AuctionState, viewModel: AuctionViewModel) {
     if (state.isCalculating) {
