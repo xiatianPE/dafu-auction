@@ -28,6 +28,8 @@ import com.dafu.auction.presentation.components.StepperSetting
 import com.dafu.auction.presentation.viewmodel.AuctionViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
+<<<<<<< HEAD
+=======
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Switch
@@ -44,6 +46,7 @@ import com.dafu.auction.presentation.components.SectionDivider
 import com.dafu.auction.presentation.components.StepperSetting
 import com.dafu.auction.presentation.viewmodel.AuctionViewModel
 
+>>>>>>> branch 'main' of https://github.com/xiatianPE/dafu-auction.git
 @Composable
 fun SettingsDialog(
     state: AuctionState,
