@@ -27,7 +27,7 @@ import com.dafu.auction.presentation.components.SectionDivider
 import com.dafu.auction.presentation.components.StepperSetting
 import com.dafu.auction.presentation.viewmodel.AuctionViewModel
 
-
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SettingsDialog(
     state: AuctionState,
