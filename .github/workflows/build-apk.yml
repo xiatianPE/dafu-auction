@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 name: Build Android APK
 
 on:
@@ -45,8 +44,6 @@ jobs:
           name: dafu-auction-debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
 
-=======
->>>>>>> branch 'main' of https://github.com/xiatianPE/dafu-auction.git
 name: Build Android APK
 
 on:
@@ -91,7 +88,6 @@ jobs:
         with:
           name: dafu-auction-debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
-<<<<<<< HEAD
 
 name: Build debug APK
 
@@ -179,6 +175,4 @@ jobs:
         with:
           name: dafu-auction-debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
-=======
->>>>>>> branch 'main' of https://github.com/xiatianPE/dafu-auction.git
           if-no-files-found: error
